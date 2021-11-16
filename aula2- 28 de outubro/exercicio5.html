@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            let dias=prompt("Digite a quantidade de dias do mês: ")
+            switch(dias){
+                case '28': 
+                document.write("O respectivo mês que contém essa quantidade de dias é: 02.")
+                break
+                case '30': 
+                document.write("Os respectivos meses que contém essa quantidade de dias são: 04, 06, 09, 11.")
+                break
+                case '31': 
+                document.write("Os respectivos meses que contém essa quantidade de dias são: 01, 03, 05, 07, 08, 10, 12.")
+                break
+                default: 
+                document.write("Esse mês não existe.")
+            }
+            </script>
+    </head>
+</html>
